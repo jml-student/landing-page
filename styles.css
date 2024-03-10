@@ -61,6 +61,12 @@ body {
     font-weight: bold;
 }
 
+.info {
+    padding: 0px 300px;
+    padding-top: 50px;
+    height: 500px;
+}
+
 .info h2 {
     font-size: 36px;
     font-weight: bold;
@@ -69,14 +75,66 @@ body {
 
 .info-container {
     display: flex;
+    justify-content: space-between;
+}
+
+.info-image {
+    max-width: 150px;
+}
+
+.info-image img {
+    border: 6px;
+    border-color: #3882F6;
+    border-radius: 6px;
 }
 
 .quote {
     background-color: #E5E7EB;
+    text-align: left;
+    padding: 100px 550px;
 }
 
 .quote p {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    margin: 0;
+
+}
+
+.quote h3 {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.action {
+    margin: 100px 300px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color:white;
+    display: flex;
+}
+
+.action-text {
+    flex-grow: 1;
+    text-align: left;
+    padding: 20px;
+    padding-left: 60px
+}
+
+.action-button-container {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-button-container button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
 }
