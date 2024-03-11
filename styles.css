@@ -87,13 +87,17 @@ body {
 }
 
 .info-image {
-    max-width: 150px;
+    max-width: 200px;
+    align-items: center;
 }
 
-.info-image img {
+.info-image img{
+    max-width: 150px;
     border: 6px;
     border-color: #3882F6;
-    border-radius: 6px;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 15px;
 }
 
 .quote {
@@ -127,6 +131,7 @@ body {
 .action-text {
     flex-grow: 1;
     text-align: left;
+    font-size: 20px;
     padding: 20px 100px;
 }
 
@@ -136,6 +141,7 @@ body {
 
 .action-button-container {
     flex-grow: 1;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -147,8 +153,8 @@ body {
     font-weight: bold;
     border-color: white;
     border-radius: 10px;
-    margin-top: 50px;
     border-style: solid;
+    font-size: 20px;
 }
 
 footer {
