@@ -13,3 +13,8 @@ https://jml-student.github.io/landing-page/
 ### Important
 
 The solution webpage doesn't look good in mobile devices.
+
+#### Images
+
+Thanks to Mediamodifier for the image.
+https://pixabay.com/es/illustrations/crecimiento-progreso-grafico-3078543/
