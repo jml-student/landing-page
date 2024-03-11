@@ -10,3 +10,6 @@ https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab0
 
 https://jml-student.github.io/landing-page/
 
+### Important
+
+The solution webpage doesn't look good in mobile devices.
