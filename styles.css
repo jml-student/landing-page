@@ -41,6 +41,7 @@ body {
 .head-content-container {
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 .head-content {
@@ -50,6 +51,12 @@ body {
 .head-content h1 {
     font-size: 48px;
     font-weight: bold;
+}
+
+.head-img img{
+    height: auto;
+    max-width: 300px;
+    border-radius: 80px;
 }
 
 .head-button {
@@ -64,7 +71,8 @@ body {
 .info {
     padding: 0px 300px;
     padding-top: 50px;
-    height: 500px;
+    height: 450px;
+    flex-shrink: 0;
 }
 
 .info h2 {
@@ -119,8 +127,11 @@ body {
 .action-text {
     flex-grow: 1;
     text-align: left;
-    padding: 20px;
-    padding-left: 60px
+    padding: 20px 100px;
+}
+
+.action-text h5 {
+    font-weight: normal;
 }
 
 .action-button-container {
@@ -137,4 +148,15 @@ body {
     border-color: white;
     border-radius: 10px;
     margin-top: 50px;
+    border-style: solid;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+    border: 0;
+    border-top-width: 4px;
+    border-style: solid;
+    border-color: gray;
 }
